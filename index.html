@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>s</title>
+        <link rel="stylesheet" href="Style.css">
+
+    </head>
+    <body>
+        <div class="text"><p>Самообразовательные онлайн-проекты </p></div>
+        <button id="one">Iteen-Academy BY<img src="облако1.png"></button>
+        <div  class="onetext">
+            <ul id="Spis">
+                <li><b>Для кого</b>: 12-18 лет</li>
+                <li><b>Что дает</b>: бесплатные курсы по программированию,робототехнике,дизайну</li>
+                <li><b>Формат</b>: онлайн-лекции + практические инивидуальные задания</li>
+                <li><b>Пример</b>: курсы "основы GameDev", "Веб-дизайн" для начинающих</li>
+                <li><b>Ссылка</b>: <a href="https://iteen.by/">Iteen-Academy</a></li>
+            </ul>
+            <img src="облдляфот.png" id="OblOne">
+            <img src="Iteen.png" id="LogoOne">
+        </div>
+
+        <button id="two">Университет детей<img src="облако1.png"></button>
+        <div  class="twotext">
+            <img src="облдляфот.png" id="OblTwo">
+            <img src="logotwo.png" id="LogoTwo">
+            <ul id="Spis2">
+                <li><b>Для кого</b>:  5–12 лет</li>
+                <li><b>Что дает</b>: научные лекции по математике, биологии, физике в игровом формате</li>
+                <li><b>Формат</b>: YouTube-канал + интерактивные тесты</li>
+                <li><b>Ссылка</b>: <a href="https://edu.polytech.one/">Университет детей</a></li>
+            </ul>
+            
+        </div>
+        <button id="three">STEM-центры<img src="облако1.png"></button>
+        <div  class="onetext">
+            <img src="облдляфот.png" id="OblThree">
+            <img src="logoStem.png" id="LogoThree">
+            <ul id="Spis3">
+                <li><b>Для кого</b>:  10-18лет</li>
+                <li><b>Что дает</b>:  Курсы по робототехнике, 3D-моделированию, искусственному интелекту</li>
+                <li><b>Формат</b>: Видеоуроки+ онлайн-соревнования</li>
+                <li><b>Ссылка</b>: <a href="https://edu4future.by/project/razvitie-stem-podhoda-i-stem-centrov-v-belarusi#:~:text=STEM%2D%D1%86%D0%B5%D0%BD%D1%82%D1%80%20%E2%80%93%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%2C%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9,%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C%20%D0%BD%D0%B0%D0%B4%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8%20STEM%2D%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%D0%BC%D0%B8.">STEM-центры</a></li>
+            </ul>
+            
+        </div>
+        <button id="four">Решу ЦТ<img src="облако1.png"></button>
+        <div  class="twotext">
+            <img src="облдляфот.png" id="OblFour">
+            <img src="websiteLogo.2c1108a8.svg" id="LogoFour">
+            <ul id="Spis4">
+                <li><b>Для кого</b>:  15-18 лет </li>
+                <li><b>Что дает</b>: Подготовку к централизованным экзаменам и тестированиям</li>
+                <li><b>Формат</b>: Онлайн-тестирование, PDF файлы для печати и офлайн-подготовки, адаптивные тесты</li>
+                <li><b>Ссылка</b>: <a href="https://rus_ct.reshu.by/">Решу ЦТ</a></li>
+            </ul>
+            
+        </div>
+        <button id="five">Знай бай<img src="облако1.png"></button>
+        <div  class="onetext">
+            <ul id="Spis5">
+                <li><b>Для кого</b>: 6-18лет+ учителя и родители</li>
+                <li><b>Что дает</b>: электронные учебники, интерактивные тесты по многим предметам, подготовка к ЦТ</li>
+                <li><b>Формат</b>: онлайн-учебники, тесты и тренажёры, мобильное приложение, личный кабинет</li>
+                <li><b>Ссылка</b>: <a href="https://iteen.by/">Знай бай</a></li>
+            </ul>
+            <img src="облдляфот.png" id="OblFive">
+            <img src="znai.png" id="LogoFive">
+        </div>
+        <script> 
+            document.getElementById('one').addEventListener('click',function(){
+                
+                const list =document.getElementById('Spis');
+                const logo=document.getElementById('LogoOne');
+                const Obl=document.getElementById('OblOne');
+                if(list.style.display==='none')
+            {
+                logo.style.display='flex';
+                Obl.style.display='flex';
+                list.style.display='flex';
+            }  
+            else{
+                list.style.display='none';
+                logo.style.display='none';
+                Obl.style.display='none';
+            }
+            
+            });
+        document.getElementById('two').addEventListener('click',function(){
+                
+                const list =document.getElementById('Spis2');
+                const logo=document.getElementById('LogoTwo');
+                const Obl=document.getElementById('OblTwo');
+                if(list.style.display==='none')
+            {
+                logo.style.display='flex';
+                Obl.style.display='flex';
+                list.style.display='flex';
+            }  
+            else{
+                list.style.display='none';
+                logo.style.display='none';
+                Obl.style.display='none';
+            }
+            
+            });
+            document.getElementById('three').addEventListener('click',function(){
+                
+                const list =document.getElementById('Spis3');
+                const logo=document.getElementById('LogoThree');
+                const Obl=document.getElementById('OblThree');
+                if(list.style.display==='none')
+            {
+                logo.style.display='flex';
+                Obl.style.display='flex';
+                list.style.display='flex';
+            }  
+            else{
+                list.style.display='none';
+                logo.style.display='none';
+                Obl.style.display='none';
+            }
+            
+            });
+            document.getElementById('four').addEventListener('click',function(){
+                
+                const list =document.getElementById('Spis4');
+                const logo=document.getElementById('LogoFour');
+                const Obl=document.getElementById('OblFour');
+                if(list.style.display==='none')
+            {
+                logo.style.display='flex';
+                Obl.style.display='flex';
+                list.style.display='flex';
+            }  
+            else{
+                list.style.display='none';
+                logo.style.display='none';
+                Obl.style.display='none';
+            }
+            
+            });
+            document.getElementById('five').addEventListener('click',function(){
+                
+                const list =document.getElementById('Spis5');
+                const logo=document.getElementById('LogoFive');
+                const Obl=document.getElementById('OblFive');
+                if(list.style.display==='none')
+            {
+                logo.style.display='flex';
+                Obl.style.display='flex';
+                list.style.display='flex';
+            }  
+            else{
+                list.style.display='none';
+                logo.style.display='none';
+                Obl.style.display='none';
+            }
+            
+            });
+        </script>
+        <script>
+            function obl()
+            {
+                const randomHeight= Math.floor(Math.random()*80)+10;
+                const randomObl= Math.floor(Math.random()*2)+1;
+                const obl=document.createElement('img');
+                if(randomObl==1)
+                {obl.src='облако1.png';}
+                if(randomObl==2)
+                {obl.src='obl2.png';}
+                if(randomObl==3)
+                {obl.src='obl3.png';}
+                if(randomObl==4)
+                {obl.src='obl4.png';}
+                if(randomObl==5)
+                {obl.src='obl5.png';}
+                obl.style.position='absolute';
+                obl.style.width=`20vw`;
+                obl.style.opacity=0.7;
+                obl.style.top=`${randomHeight}%`;
+                var left=0;
+                const Win=window.innerWidth;
+                document.body.appendChild(obl);
+                function dviz()
+                {
+                left+=0.05;
+                if(left<=100)
+                {
+                    obl.style.left=`${left}vw`;
+                }
+                else
+                {
+                    document.body.removeChild(obl);
+                }
+                }
+                const interval= setInterval(dviz,5);
+            }
+            const interval1 = setInterval(obl,11000);
+            const interval2 = setInterval(obl,15000);
+            const interval3 = setInterval(obl,20000);
+            const interval4 = setInterval(obl,24000);
+        </script>
+    </body>
+</html>

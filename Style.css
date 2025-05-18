@@ -1,0 +1,278 @@
+body
+{
+    margin:0;
+    background-color: #00A2E8;
+    position: absolute;
+    background-image: url(фон.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button
+{
+    user-select: none;
+}
+.text
+{
+    color:white;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-top: 15%;
+    width: 100%;
+    font-size: 5vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#one
+{
+    width: 10vw;
+    font-size: 3vw;
+    margin-left: 10vw;
+    margin-top: 20%;
+    border: 0;
+    background: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#00A2E8;
+}
+#one>img
+{
+    width:20vw;
+    position: absolute;
+    margin-left: -11vw;
+    z-index: -1;
+    margin-top: -18vh;
+}
+#three
+{
+    width: 10vw;
+    font-size: 3vw;
+    margin-left: 10vw;
+    margin-top: 20%;
+    border: 0;
+    background: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#00A2E8;
+}
+#three>img
+{
+    width:20vw;
+    position: absolute;
+    margin-left: -10vw;
+    z-index: -1;
+    margin-top: -22vh;
+}
+#five
+{
+    width: 10vw;
+    font-size: 3.5vw;
+    margin-left: 10vw;
+    margin-top: 20%;
+    border: 0;
+    background: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#00A2E8;
+}
+#five>img
+{
+    width:20vw;
+    position: absolute;
+    margin-left: -12vw;
+    z-index: -1;
+    margin-top: -15vh;
+}
+#two
+{
+    width: 10vw;
+    font-size: 3vw;
+    margin-left: 75vw;
+    margin-top: 20%;
+    border: 0;
+    background: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#00A2E8;
+}
+#two>img
+{
+    width:20vw;
+    position: absolute;
+    margin-left: -11vw;
+    z-index: -1;
+    margin-top: -15vh;
+}
+#four
+{
+    width: 10vw;
+    font-size: 3vw;
+    margin-left: 75vw;
+    margin-top: 20%;
+    border: 0;
+    background: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#00A2E8;
+}
+#four>img
+{
+    width:20vw;
+    position: absolute;
+    margin-left: -11vw;
+    z-index: -1;
+    margin-top: -15vh;
+}
+#Spis2
+{
+    width:50vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: justify;
+    margin-left: 45vw;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    display: none;
+}
+#Spis4
+{
+    width:50vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: justify;
+    margin-left: 45vw;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    display: none;
+}
+#Spis
+{
+    width:50vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+#Spis3
+{
+    width:50vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+#Spis5
+{
+    width:50vw;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+#OblThree
+{
+    display:none; 
+    width:40vw;
+    margin-left: 55vw;
+    margin-top: -7vh;
+}
+#OblFive
+{
+    display:none; 
+    width:40vw;
+    margin-left: 55vw;
+    margin-top: -7vh;
+}
+#OblTwo
+{
+    position: absolute;
+    display:none;
+    width:40vw;
+    margin-top: -5vh;
+}
+#OblFour
+{
+    position: absolute;
+    display:none;
+    width:40vw;
+    margin-top: -5vh;
+}
+#LogoThree
+{
+    position: absolute;
+    display: none;
+    margin-left: 67vw;
+    margin-top:17vh;
+    width:16vw;
+}
+#LogoFive
+{
+    position: absolute;
+    display: none;
+    margin-left: 60vw;
+    margin-top:17vh;
+    width:30vw;
+
+}
+#LogoTwo
+{
+    position: absolute;
+    display: none;
+    margin-top: 27vh;
+    margin-left: 5vw;
+}
+#LogoFour
+{
+    position: absolute;
+    display: none;
+    width:20vw;
+    margin-top: 15vh;
+    margin-left: 10vw;
+}
+#OblOne
+{
+    display:none; 
+    width:40vw;
+    margin-left: 55vw;
+    margin-top: -7vh;
+}
+#LogoOne
+{
+    display:none;
+    margin-left: 63vw;
+    width:24vw;
+    margin-top: 15vh;
+}
+.onetext
+{
+    display: flex;
+}
+.onetext>img
+{
+    position: absolute;
+}
